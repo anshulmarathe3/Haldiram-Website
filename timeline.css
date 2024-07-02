@@ -111,7 +111,7 @@ body{
     padding: 150px 60px;
 }
 #full h4{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     margin-bottom: 35px;
 }
@@ -126,6 +126,69 @@ body{
     font-size: 25px;
     cursor: pointer;
 }
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+  position: absolute;
+  right: 10%;
+}
+
+.srch {
+  font-family: "Jost", sans-serif;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: black;
+  border-right: none;
+  font-size: 18px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.sch-btn {
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: black;
+  font-size: 18px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.sch-btn:hover {
+    color: #000;
+}
+
+.sch-btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+@media (max-width: 465px)
+    {
+        .search
+        {
+          display: none;
+        }
+        
+        #full
+        {
+          width: 100%;
+        }
+    }
+
 /* #cont{
     height: 100%;
     width: 100%;
