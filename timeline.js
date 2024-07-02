@@ -5,11 +5,11 @@ var tl = gsap.timeline()
 
 tl.to("#full",{
     right:0,
-    duration:0.5,
+    duration:0.2,
 })
 tl.from("#full h4",{
     x:300,
-    duration:0.35,
+    duration:0.2,
     stagger:0.22,
     opacity:0.3,
 })
