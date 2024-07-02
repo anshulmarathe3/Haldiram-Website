@@ -1,0 +1,68 @@
+.follow-us .centerBar {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us a {
+    height: 350px;
+    width: 300px;  
+    margin: 12px;
+    text-align: center;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+.follow-us .fa-youtube {
+    color: red;
+}
+
+.follow-us .fa-twitter {
+    color: #0097e6;
+}
+
+.follow-us .fa-instagram {
+    color: #e84393;
+}
+
+.follow-us .line p {
+    color: red;
+    font-size: 2em;
+    padding: 18px;
+}
+
+.follow-us a .fa {
+    transition: all 0.3s linear;
+}
+
+.follow-us a:hover .fa {
+    transform: scale(1.5);
+    color: #f5f6fa;
+}
+
+.follow-us a:before {
+    content: "";
+    height: 120%;
+    width: 120%;
+    position: absolute;
+    top: 90%;
+    left: -50%;
+    background-color: #00a8ff;
+    transform: rotate(60deg);
+}
+
+.follow-us a:hover:before {
+    animation: socialicons 0.8s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes socialicons {
+    0%  { top: 90%; left: -50%; }
+    50%  { top: -60%; left: -10%; }
+    100% { top: -10%; left: -10%; }
+}
