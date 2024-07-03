@@ -8,7 +8,7 @@
     font-family: "Jost", sans-serif;
     border: none;
     outline: none;
-    font-family: Jost;
+    font-family: "Jost", sans-serif;
     scroll-behavior: smooth;
     
 }
@@ -86,6 +86,7 @@ body{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 35px;
+    color: black;
 }
 #full i{
     position: absolute;
@@ -258,7 +259,7 @@ body{
    }
    
    .carousel_title{
-      font-family: "Montserrat", sans-serif;
+      font-family: "Jost", sans-serif;
       font-weight: 600;
    }
    
@@ -281,7 +282,7 @@ body{
    .carousel_dot{
       display: block;
       padding: .25rem;
-      background-color: rgba(255, 255, 255, .25);
+      background-color: red;
       border: none;
       border-radius: 50%;
       cursor: pointer;
@@ -289,7 +290,7 @@ body{
    }
    
    .carousel_dot__active{
-      background-color: lightskyblue;
+      background-color: yellow;
       cursor: default;
       pointer-events: none;
    }
@@ -308,10 +309,10 @@ body{
    .carousel_button{
       display: block;
       padding-inline: 1rem;
-      font-family: "Raleway", sans-serif;
-      font-size: 1.375rem;
+      font-family: "Jost", sans-serif;
+      font-size: 2rem;
       background-color: transparent;
-      color: rgba(255, 255, 255, .25);
+      color: red;
       border: none;
       cursor: pointer;
       transition: color .25s;
@@ -319,7 +320,7 @@ body{
    }
    
    .carousel_button:hover{
-      color: rgba(135, 206, 250, .75);
+      color: yellow;
    }
 /* #cont{
     height: 100%;
@@ -369,9 +370,10 @@ h1 span{
 
 .heading
 {
-    margin: 20px;
+    margin: 10px;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.7rem;
+    font-family: "Jost", sans-serif;
 }
 
 .product {
@@ -481,8 +483,10 @@ h1 span{
   }
   
   .price {
-    font-weight: 900;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
     font-size: 20px;
+    color: black;
   }
   
   .actual-price {
@@ -725,7 +729,7 @@ h1 span{
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Jost", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -741,11 +745,14 @@ body {
   text-align: center;
 }
 
-h2, h3 {
-  color: #333;
+h2{
+  font-family: "Jost", sans-serif;
+  color: black;
 }
 
 h3 {
+  font-family: "Jost", sans-serif;
+  color: light #46454577;
   margin-bottom: 20px;
 }
 
@@ -786,6 +793,35 @@ video {
 
 }
 
+.content {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+}
+
+.social-icon {
+      font-size: 2rem;
+      transition: .3s ease;
+  }
+
+.social-icon:hover
+{
+  transform: scale(1.2);
+  color: red;
+  
+}
+  .btn-floating {
+      width: 60px; /* Adjust the size as needed */
+      height: 60px; /* Adjust the size as needed */
+      padding: 12px; /* Adjust the padding */
+      line-height: 36px; /* Adjust the line height to center the icon */
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+
+
 /* #more-button {
   display: block;
   margin: 20px auto;
@@ -802,7 +838,7 @@ video {
 } */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Jost", sans-serif;
   margin: 0;
   padding: 0;
  
@@ -926,11 +962,12 @@ body {
     cursor: pointer; 
     padding: 15px; 
     border-radius: 50%; 
-    font-size: 20px; 
+    font-size: 5px; 
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); 
     transition: .5s ease;
 }
 #backToTopBtn:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
     background-color: yellow; 
 
 }
