@@ -34,6 +34,8 @@ gsap.from("#logo",{
     duration:1.2,
 })
 
+
+
 let onSlide = false;
 
 window.addEventListener("load", () => {
@@ -195,7 +197,6 @@ productContainers.forEach((item, i) => {
     })
 })
 
-
 let mybutton = document.getElementById("backToTopBtn");
 
 window.onscroll = function() {
@@ -211,7 +212,10 @@ function scrollFunction() {
 }
 
 mybutton.onclick = function() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 };
+
 
