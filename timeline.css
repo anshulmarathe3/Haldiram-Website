@@ -639,11 +639,13 @@ h3 {
 
 video {
   
-  width: 99%;
+  width: 90%;
+  height: 40%;
   border-radius: 10px;
 }
 
 .text-container {
+  font-size:105%;
   text-align: justify;
   margin-top: 20px;
   max-width: 100%;
