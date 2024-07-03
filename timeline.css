@@ -46,39 +46,11 @@ body{
 
     
 }
-#slider-cont{
-    
-}
 #mainwaladiv{
     display: flex;
     flex-direction: column;
     /* gap: 20px; */
 }
-
-/* 
-#slider-cont {
-    position: relative;
-    /* Ensures it takes space properly */
-  /* }
-  
-#om {
-    position: relative;
-    /* Ensures it takes space properly */
-  /* }
-  
-  /* Optional: Ensure proper height for the slider */
-/*#slider-cont .slider {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-  }
-  
-#slider-cont .slider img {
-    width: 100%;
-    height: auto;
-  } */ 
-
-
 
 
 
@@ -188,6 +160,7 @@ body{
           width: 100%;
         }
     }
+
 :root{
       font-family: "Jost", sans-serif;
       font-size: 16px;
@@ -348,7 +321,6 @@ body{
    .carousel_button:hover{
       color: rgba(135, 206, 250, .75);
    }
-
 /* #cont{
     height: 100%;
     width: 100%;
@@ -890,7 +862,7 @@ body {
 
 .footer-section {
   flex: 1;
-  padding: 0 20px;
+  padding: 1 10px;
 }
 
 .footer-section h3 {
@@ -926,7 +898,7 @@ body {
 
 .payment-methods img {
   margin: 0 5px;
-  width: 50px;
+  width: 300px;
 }
 
 .footer-bottom {
@@ -956,10 +928,11 @@ body {
     border-radius: 50%; 
     font-size: 20px; 
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); 
+    transition: .5s ease;
 }
-
 #backToTopBtn:hover {
     background-color: yellow; 
+
 }
 
 
