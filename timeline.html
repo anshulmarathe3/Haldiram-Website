@@ -8,6 +8,8 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"
 />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
 <link rel="stylesheet" href="style.css">
 <style>
     body, html {
@@ -75,21 +77,34 @@
                 <i class="ri-close-line"></i>
             </div>
         </div>
-
-
-        <div id="slider-cont">
-            <div class="slider" id="slider">
-                <img src="./images/Summer_Banner.webp" alt="Slide 1">
-                <img src="./images/rteweb.webp" alt="Slide 2">
-                <img src="./images/Sugar_Free_Web_1920x600px_1.webp" alt="Slide 3">
-                <img src="./images/Final_Loyatly_Program_Banner-Desk-new_1.webp" alt="Slide 4">
-                
-                
+        <div class="carousel">
+            <div class="carousel_inner">
+               <div class="carousel_item carousel_item__active">
+                  <img src="images/image1.jpg" alt="" class="carousel_img">
+               </div>
+               <div class="carousel_item">
+                  <img src="images/image2.jpg" alt="" class="carousel_img">
+               </div>
+               <div class="carousel_item">
+                  <img src="images/image3.jpg" alt="" class="carousel_img">
+               </div>
             </div>
-            
+      
+            <div class="carousel_indicator">
+               <button class="carousel_dot carousel_dot__active"></button>
+               <button class="carousel_dot"></button>
+               <button class="carousel_dot"></button>
+            </div>
+      
+            <div class="carousel_control">
+               <button class="carousel_button carousel_button__prev">
+                  <i class="fas fa-chevron-left"></i>
+               </button>
+               <button class="carousel_button carousel_button__next">
+                  <i class="fas fa-chevron-right"></i>
+               </button>
+            </div>
         </div>
-
-
 
         <div id="om1">
                 <h2 class="heading">Bestsellers</h2>
