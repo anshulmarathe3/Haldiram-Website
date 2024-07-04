@@ -12,9 +12,30 @@
     scroll-behavior: smooth;
     
 }
-html,body{
-height: 100%;
-width: 100%;
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+
+
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 62%;
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-resolution: 100%;
+ 
 }
 body{
     overflow-x: hidden;
@@ -24,7 +45,7 @@ body{
     margin-bottom: 20px; /* optional: adds space between the sections */
 #om1{
     position: relative;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 #om2{
   position: relative;
@@ -93,12 +114,14 @@ body{
     top: 5%;
     right: 10%;
     background-color: #fff;
+    color: black;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px 12.5px;
     font-weight: 800;
     font-size: 25px;
     cursor: pointer;
 }
+
 .search {
   width: 330px;
   float: left;
@@ -456,7 +479,6 @@ h1 span{
     cursor: pointer;
     opacity: 0;
   }
-
   .product-card:hover .card-btn {
     
     opacity: 1;
@@ -465,6 +487,7 @@ h1 span{
   {
     transform: scale(1.05);
   }
+  
  
   .card-btn:hover {
     background: #fcee1f;
@@ -506,7 +529,7 @@ h1 span{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 75%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 60%);
     cursor: pointer;
     z-index: 8;
   }
@@ -851,7 +874,7 @@ body {
 }
 
 .footer-newsletter {
-  background-color: #ffd700;
+  background-image: linear-gradient(to right, red , orange,yellow,rgb(216, 68, 4));
   padding: 20px;
   text-align: center;
 }
@@ -881,14 +904,18 @@ body {
 
 .newsletter-form button {
   padding: 10px 20px;
-  border: none;
+  border: 1px solid black;
   background-color: #ff0000;
   color: #fff;
   border-radius: 4px;
   margin-left: 10px;
   cursor: pointer;
+  transition: .3s ease;
 }
-
+.newsletter-form button:hover {
+  background-color: yellow;
+  color: black;
+}
 .footer-content {
   display: flex;
   justify-content: space-around;
