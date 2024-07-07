@@ -1,4 +1,3 @@
-# Web-Wizzards-ReimagineRound1
 # Haldiram's Website
 
 ## Project Overview
